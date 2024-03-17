@@ -15,7 +15,7 @@ pipeline {
             steps { 
                 sh 'docker compose version'   
                 sh 'docker-compose down'
-                sh 'docker-compose up'
+                sh 'docker-compose up -d'
                 sh 'docker ps'
                 
             }
