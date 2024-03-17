@@ -2,7 +2,6 @@ version: "3.8"
 services:
   frontend:
     image: arturgrigoryan1/front:ed3c84c92e4021248db25e53e438b8c6b7e887de
-    container_name: "front"
     
 #    depends_on:
 #      - backend
