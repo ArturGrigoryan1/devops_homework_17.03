@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   frontend:
-    image: arturgrigoryan1/front:36e0b2e262796b4f855302ec057ee7fb36293a48
+    image: arturgrigoryan1/front:1fec924252b5edae99353165db54a56a10a32626
     
 #    depends_on:
 #      - backend
