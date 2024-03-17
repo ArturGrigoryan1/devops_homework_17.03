@@ -18,7 +18,7 @@ pipeline {
                 sh 'docker compose version'
                 sh 'docker images'
             //    sh 'docker run --rm hello-world'
-                sh 'docker-compose up -d'
+                sh 'docker ps'
             //    sh 'docker-compose up -d'
             }
         }
