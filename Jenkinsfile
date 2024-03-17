@@ -17,8 +17,8 @@ pipeline {
                 sh 'cat docker-compose.yml'
                 sh 'docker compose version'
                 sh 'docker images'
-                sh 'docker run --rm hello-world'
-            //    sh 'docker-compose up -d'
+            //    sh 'docker run --rm hello-world'
+                sh 'docker-compose up -d'
             //    sh 'docker-compose up -d'
             }
         }
