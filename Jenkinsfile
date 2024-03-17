@@ -13,9 +13,8 @@ pipeline {
     stages {
         stage('docker compose') {
             steps {  
-                sh 'ls -la'
                 sh 'docker compose version'
-            //    sh 'docker-compose down'
+                sh 'docker-compose down'
             //    sh 'docker-compose up -d'
             }
         }
