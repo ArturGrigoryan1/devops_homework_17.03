@@ -19,7 +19,6 @@ pipeline {
                 sh 'docker images'
                 sh 'docker compose down'
                 sh 'docker ps'
-        
             }
         }
     }
