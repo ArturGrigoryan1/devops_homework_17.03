@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   frontend:
-    image: arturgrigoryan1/front:1fec924252b5edae99353165db54a56a10a32626
+    image: arturgrigoryan1/front:c8e8ca3
     
 #    depends_on:
 #      - backend
@@ -36,5 +36,8 @@ networks:
   network-backend:
 
 #volumes: 
+#  mongodb_data:
+#ngodb_data:
+: 
 #  mongodb_data:
 #ngodb_data:
