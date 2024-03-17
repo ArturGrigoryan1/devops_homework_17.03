@@ -15,6 +15,7 @@ pipeline {
             steps {  
                 sh 'docker compose version'
                 sh 'docker images'
+                sh 'docker run hello-world'
             //    sh 'docker-compose up -d'
             //    sh 'docker-compose up -d'
             }
