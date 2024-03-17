@@ -37,4 +37,4 @@ networks:
 
 #volumes: 
 #  mongodb_data:
-ngodb_data:
+#ngodb_data:
