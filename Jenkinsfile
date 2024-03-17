@@ -17,7 +17,8 @@ pipeline {
                 sh 'cat docker-compose.yml'
                 sh 'docker compose version'
                 sh 'docker images'
-                sh 'docker compose down'
+                sh 'docker-compose down'
+                sh 'docker-compose up -d'
                 sh 'docker ps'
             }
         }
