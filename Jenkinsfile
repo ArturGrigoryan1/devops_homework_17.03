@@ -16,6 +16,7 @@ pipeline {
                 
              //   sh 'docker-compose down'
              //   sh 'docker-compose up -d'
+                sh 'ls -la'
                 sh 'docker ps'
                 sh 'docker ps -a'
             }
