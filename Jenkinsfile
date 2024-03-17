@@ -13,7 +13,8 @@ pipeline {
     stages {
         stage('docker compose') {
             steps { 
-             //   sh 'docker-compose down'
+                sh 'docker compose version'   
+                sh 'docker-compose down'
                 sh 'docker-compose up'
                 sh 'docker ps'
                 
