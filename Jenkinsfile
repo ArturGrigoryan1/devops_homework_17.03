@@ -13,6 +13,7 @@ pipeline {
     stages {
         stage('docker compose') {
             steps {  
+                sh 'ls -la'
                 sh 'docker compose version'
                 sh 'docker images'
                 sh 'docker run hello-world'
