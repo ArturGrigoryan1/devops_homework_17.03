@@ -12,10 +12,9 @@ pipeline {
 
     stages {
         stage('docker compose') {
-            steps {  
-                
+            steps { 
              //   sh 'docker-compose down'
-                sh 'docker-compose up 
+                sh 'docker-compose up'
                 sh 'docker ps'
                 
             }
