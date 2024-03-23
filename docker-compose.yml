@@ -19,14 +19,14 @@ services:
   
   mongo:
     image: mongo
-#    env_file: docker.env
+    env_file: docker.env
     restart: always
     volumes: 
       - mongodb_data:/data/db
     environment: 
-      MONGODB_INITDB_ROOT_USERNAME: admin
-      MONGODB_INITDB_ROOT_PASSWORD: secret
-      MONGO_INITDB_DATABASE: todos
+      MONGODB_INITDB_ROOT_USERNAME: ${MONGO_USER}
+      MONGODB_INITDB_ROOT_PASSWORD: ${MONGO_PASSWORD}
+      MONGO_INITDB_DATABASE: ${MONGO_DB}
     ports:
       - 27017:27017
     networks: 
