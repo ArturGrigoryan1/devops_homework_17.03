@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   frontend:
-    image: arturgrigoryan1/front:48a29bd
+    image: arturgrigoryan1/front:f476015
     depends_on:
       - backend
     ports:
