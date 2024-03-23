@@ -9,7 +9,7 @@ services:
     networks:
       - network-backend
   backend:
-    image: arturgrigoryan1/back:8af83df
+    image: arturgrigoryan1/back:2464bf0
     depends_on:
       - mongo
     ports:
