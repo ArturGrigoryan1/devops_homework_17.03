@@ -23,7 +23,7 @@ services:
   mongo:
     image: mongo
     env_file: 
-      - "docker.env"
+      - "./docker.env"
     restart: always
     volumes: 
       - mongodb_data:/data/db
