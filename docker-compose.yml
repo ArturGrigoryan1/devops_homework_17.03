@@ -16,7 +16,7 @@ services:
     ports:
       - "3001:3001"
     networks: 
-     - network-backend
+      - network-backend
   
   mongo:
     image: mongo
