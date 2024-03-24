@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   frontend:
-    image: arturgrigoryan1/front:3119507
+    image: arturgrigoryan1/front:8c91dc6
     container_name: frontend
     depends_on:
       - backend
