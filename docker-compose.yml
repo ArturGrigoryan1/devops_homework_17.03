@@ -10,7 +10,7 @@ services:
     networks:
       - network-backend
   backend:    
-    image: arturgrigoryan1/back:47b550f
+    image: arturgrigoryan1/back:e7be42a
     container_name: backend
     restart: always
     depends_on:
