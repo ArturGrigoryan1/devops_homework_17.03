@@ -9,7 +9,7 @@ services:
     networks:
       - network-backend
       
-    image: arturgrigoryan1/back:7a36660
+    image: arturgrigoryan1/back:bcdda19
     restart: always
     depends_on:
       - mongo
